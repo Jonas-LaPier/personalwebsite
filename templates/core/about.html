@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="hero">
+  <div>
+    <p class="eyebrow">Hello, I’m</p>
+    <h1>{{ site_profile.name }}.</h1>
+    <p class="tagline">{{ site_profile.tagline }}</p>
+  </div>
+  {% if site_profile.portrait %}<img class="portrait" src="{{ site_profile.portrait.url }}" alt="Portrait of {{ site_profile.name }}">{% else %}<div class="portrait placeholder" aria-hidden="true">{{ site_profile.name|first }}</div>{% endif %}
+</section>
+<section class="about-grid">
+  <h2>About me</h2>
+  <div class="prose">{{ site_profile.about|linebreaks }}</div>
+</section>
+<section class="contact-card">
+  <div><p class="eyebrow">Let’s connect</p><h2>Have something in mind?</h2></div>
+  <div class="links">
+    {% if site_profile.email %}<a href="mailto:{{ site_profile.email }}">Email me ↗</a>{% endif %}
+    {% if site_profile.linkedin_url %}<a href="{{ site_profile.linkedin_url }}">LinkedIn ↗</a>{% endif %}
+    {% if site_profile.github_url %}<a href="{{ site_profile.github_url }}">GitHub ↗</a>{% endif %}
+  </div>
+</section>
+{% endblock %}
+

@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %}{{ post.title }} — {{ site_profile.name }}{% endblock %}
+{% block content %}<article class="article">
+  <a class="back" href="{% url 'blog' %}">← All writing</a>
+  <header><time>{{ post.published_at|date:"F j, Y" }}</time><h1>{{ post.title }}</h1>{% if post.excerpt %}<p class="tagline">{{ post.excerpt }}</p>{% endif %}</header>
+  {% if post.cover_image %}<img class="cover" src="{{ post.cover_image.url }}" alt="">{% endif %}
+  <div class="prose article-body">{{ post.body|linebreaks }}</div>
+</article>{% endblock %}
+
