@@ -1,0 +1,30 @@
+- title: Education
+  items:
+    - title: Your degree or program
+      organization: Your university
+      location: City, State
+      start_date: "2020"
+      end_date: "2024"
+      description: Replace this example with a concise description, distinction, or area of study.
+      link: ""
+
+- title: Experience
+  items:
+    - title: Your role
+      organization: Your organization
+      location: City, State
+      start_date: "2024"
+      end_date: Present
+      description: Describe the work, its impact, and the skills you used.
+      link: ""
+
+- title: Selected Work
+  items:
+    - title: A project or publication
+      organization: ""
+      location: ""
+      start_date: "2024"
+      end_date: ""
+      description: Explain what you made, discovered, or contributed.
+      link: ""
+

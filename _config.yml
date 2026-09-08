@@ -1,0 +1,19 @@
+title: Jonas LaPier
+tagline: Researcher, maker, and lifelong learner
+description: Personal website, curriculum vitae, and writing by Jonas LaPier.
+url: https://jonas-lapier.github.io
+baseurl: /personalwebsite
+email: ""
+location: ""
+linkedin_url: ""
+github_url: https://github.com/Jonas-LaPier
+resume_url: ""
+portrait: ""
+permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
+exclude:
+  - README.md
+  - EDITING.md
+  - Gemfile
+  - Gemfile.lock
+
