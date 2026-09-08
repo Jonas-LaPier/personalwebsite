@@ -21,10 +21,10 @@ permalink: /cv/
         <h3>{% if item.link != '' %}<a href="{{ item.link }}">{{ item.title }} ↗</a>{% else %}{{ item.title }}{% endif %}</h3>
         {% if item.organization != '' %}<p class="meta">{{ item.organization }}{% if item.location != '' %} · {{ item.location }}{% endif %}</p>{% endif %}
         {% if item.description != '' %}<p class="description">{{ item.description }}</p>{% endif %}
+        {% if item.details %}<ul class="cv-details">{% for detail in item.details %}<li>{{ detail }}</li>{% endfor %}</ul>{% endif %}
       </div>
     </article>
     {% endfor %}
   </div>
 </section>
 {% endfor %}
-

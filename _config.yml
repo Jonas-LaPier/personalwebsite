@@ -3,11 +3,11 @@ tagline: Researcher, maker, and lifelong learner
 description: Personal website, curriculum vitae, and writing by Jonas LaPier.
 url: https://jonas-lapier.github.io
 baseurl: /personalwebsite
-email: ""
-location: ""
+email: jlapier@stanford.edu
+location: Palo Alto, CA
 linkedin_url: ""
 github_url: https://github.com/Jonas-LaPier
-resume_url: ""
+resume_url: /assets/files/LaPier_CV.pdf
 portrait: ""
 permalink: /blog/:year/:month/:day/:title/
 markdown: kramdown
@@ -16,4 +16,3 @@ exclude:
   - EDITING.md
   - Gemfile
   - Gemfile.lock
-

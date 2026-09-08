@@ -1,30 +1,245 @@
 - title: Education
   items:
-    - title: Your degree or program
-      organization: Your university
-      location: City, State
-      start_date: "2020"
-      end_date: "2024"
-      description: Replace this example with a concise description, distinction, or area of study.
-      link: ""
-
-- title: Experience
-  items:
-    - title: Your role
-      organization: Your organization
-      location: City, State
-      start_date: "2024"
+    - title: Ph.D. Candidate in Civil and Environmental Engineering
+      organization: Stanford University
+      location: Stanford, CA
+      start_date: "2022"
       end_date: Present
-      description: Describe the work, its impact, and the skills you used.
+      description: ""
+      link: ""
+    - title: M.S. in Environmental Engineering
+      organization: Stanford University
+      location: Stanford, CA
+      start_date: ""
+      end_date: "2024"
+      description: ""
+      link: ""
+    - title: B.S. in Environmental Engineering, Minor in Environmental Science and Public Policy
+      organization: Harvard University
+      location: Cambridge, MA
+      start_date: ""
+      end_date: "2021"
+      description: Summa Cum Laude
       link: ""
 
-- title: Selected Work
+- title: Articles and Publications
   items:
-    - title: A project or publication
+    - title: Electrochemical Debromination of Brominated Aromatic Flame Retardants Using Activated Carbon-Based Cathodes
+      organization: LaPier J, Liu YJ, King J, Béguerie T, Nzihou A, Mitch W · Environmental Science & Technology 60(1), 1346–1356
+      location: ""
+      start_date: ""
+      end_date: "2026"
+      description: "DOI: 10.1021/acs.est.5c03324"
+      link: https://doi.org/10.1021/acs.est.5c03324
+    - title: "Quaternary Ammonium Compounds: A Chemical Class of Emerging Concern"
+      organization: Arnold W, Blum A, Branyan J, Bruton T, Carignan C, Cortopassi G, Datta S, DeWitt J, Doherty A, Halden R, Harari H, Hartmann E, Hrubec T, Iyer S, Kwiatkowski C, LaPier J, Li D, Li L, Muñiz Ortiz J, Salamova A, Schettler T, Seguin R, Soehl A, Sutton R, Xu L, Zheng G · Environmental Science & Technology 57(20), 7645–7665
+      location: ""
+      start_date: ""
+      end_date: "2023"
+      description: "DOI: 10.1021/acs.est.2c08244"
+      link: https://doi.org/10.1021/acs.est.2c08244
+    - title: Eliminate useless uses of forever chemicals
+      organization: LaPier J, Kwiatkowski C · The Hill
+      location: ""
+      start_date: ""
+      end_date: April 8, 2023
+      description: ""
+      link: https://thehill.com/opinion/energy-environment/3940000-eliminate-useless-uses-of-forever-chemicals/
+    - title: Evaluating the Performance of Per- and Polyfluoroalkyl Substance Finishes on Upholstery Fabrics
+      organization: LaPier J, Blum A, Brown BR, Kwiatkowski C, Phillips B, Ray H, Sun G · AATCC Journal of Research 10(4), 205–213
+      location: ""
+      start_date: ""
+      end_date: "2023"
+      description: "DOI: 10.1177/24723444231159856"
+      link: https://doi.org/10.1177/24723444231159856
+    - title: Journal of Chemical Education, 99(9), 3203–3210
+      organization: Andrew de Vera G, Brown B, Cortesa S, Dai M, Bruno J, LaPier J, Sule N, Hancock M, Yoon B, Chalah A, Sunderland E, Wofsy C
+      location: ""
+      start_date: ""
+      end_date: "2022"
+      description: "DOI: 10.1021/acs.jchemed.2c00535"
+      link: https://doi.org/10.1021/acs.jchemed.2c00535
+    - title: Official health communications are failing PFAS-contaminated communities
+      organization: Ducatman A, LaPier J, Fuoco R, DeWitt J · Environmental Health 21, 51
+      location: ""
+      start_date: ""
+      end_date: "2022"
+      description: "DOI: 10.1186/s12940-022-00857-9"
+      link: https://doi.org/10.1186/s12940-022-00857-9
+    - title: Analytical Functions for 200 West Pump-and-Treat SCADA Sensor Data
+      organization: LaPier J, Johnson C · Pacific Northwest National Laboratory, PNNL-30194
+      location: Richland, WA
+      start_date: ""
+      end_date: "2020"
+      description: "DOI: 10.2172/1734568"
+      link: https://doi.org/10.2172/1734568
+    - title: Optimizing Portable Pulse Oximetry Measurement Accuracy and Consistency during Exercise
+      organization: LaPier J, Chatellier MC · Journal of Acute Care Physical Therapy 8(3), 96–105
+      location: ""
+      start_date: ""
+      end_date: "2017"
+      description: ""
+      link: ""
+    - title: Can Low Cost Fingertip Pulse Oximeters be Used to Measure Oxygen Saturation and Heart Rate during Walking?
+      organization: LaPier J, Chatellier MC · International Journal of Physiotherapy and Research 4(5), 1689–1695
+      location: ""
+      start_date: ""
+      end_date: "2016"
+      description: "DOI: 10.16965/ijpr.2016.166"
+      link: https://doi.org/10.16965/ijpr.2016.166
+    - title: Pulse Oximetry Accuracy during Treadmill Walking – the Challenge of Measuring Oxygen Saturation and Heart Rate
+      organization: Chatellier M, Koster B, LaPier J · Cardiopulmonary Physical Therapy Journal 27(1), 38
+      location: ""
+      start_date: ""
+      end_date: "2016"
+      description: Abstract
+      link: ""
+    - title: "Post-operative Lifting Restrictions: The Weight of Common Household Items"
+      organization: Chatellier MC, LaPier J · GeriNotes 22(4), 27–30
+      location: ""
+      start_date: ""
+      end_date: "2015"
+      description: Academy of Geriatric Physical Therapy
+      link: ""
+
+- title: Presentations
+  items:
+    - title: Electrochemical Reduction of Bromo-Aromatics on Activated Carbon Electrodes
+      organization: American Chemical Society
+      location: San Francisco, CA
+      start_date: ""
+      end_date: August 2023
+      description: ""
+      link: ""
+    - title: Evaluating the Performance of PFAS Finishes on Upholstery Fabrics
+      organization: American Association of Textile Chemists and Colorists Textile Discovery Summit
+      location: Charlotte, NC
+      start_date: ""
+      end_date: October 2022
+      description: ""
+      link: ""
+    - title: Analytical Functions for the Hanford 200 West Pump-and-Treat Sensor Data
+      organization: Waste Management Conference
+      location: Virtual
+      start_date: ""
+      end_date: March 2021
+      description: ""
+      link: ""
+    - title: Pulse Oximetry Accuracy During Treadmill Walking – The Challenge of Measuring Exercise Oxygen Saturation and Heart Rate
+      organization: American Physical Therapy Association Combined Sections Meeting
+      location: Anaheim, CA
+      start_date: ""
+      end_date: February 2016
+      description: ""
+      link: ""
+    - title: Accuracy of Heart Rate Measurements Obtained with 10 Different Pulse Oximeters After Cold Exposure
+      organization: 29th National Conference on Undergraduate Research
+      location: Eastern Washington University, Cheney, WA
+      start_date: ""
+      end_date: April 2015
+      description: ""
+      link: ""
+
+- title: Work Experience
+  items:
+    - title: Teaching Assistant
+      organization: Stanford University
+      location: Stanford, CA
+      start_date: Winter 2025
+      end_date: Summer 2025
+      description: ""
+      details:
+        - TA for Aquatic and Organic Chemistry for Environmental Engineering with Professor Mitch
+        - TA for Providing Safe Water for the Developing and Developed World with Professor Mitch
+      link: ""
+    - title: Green Science Policy Institute Intern
+      organization: Green Science Policy Institute
+      location: ""
+      start_date: July 2021
+      end_date: May 2022
+      description: ""
+      details:
+        - Worked on efforts to reduce the impact and pervasiveness of toxics in consumer products
+        - Led a project studying the effectiveness of PFAS treatments on commercial textiles in real-world conditions
+      link: ""
+    - title: Teaching Assistant
+      organization: Harvard University
+      location: Cambridge, MA
+      start_date: February 2021
+      end_date: May 2021
+      description: ""
+      details:
+        - Prepared course materials for Introduction to Environmental Engineering
+        - Led a weekly section and held office hours
+      link: ""
+    - title: PNNL Intern
+      organization: Pacific Northwest National Laboratory
+      location: ""
+      start_date: June 2020
+      end_date: June 2021
+      description: Internships in June–August 2020, January 2021, and June 2021.
+      details:
+        - Worked for Christian Johnson
+        - Conducted data analytics for pump-and-treat remediation efforts at the U.S. Department of Energy Hanford Site
+      link: ""
+    - title: Research Assistant
+      organization: Harvard John A. Paulson School of Engineering and Applied Sciences
+      location: Cambridge, MA
+      start_date: Spring 2019
+      end_date: "2021"
+      description: ""
+      details:
+        - Worked on groundwater metals modeling using big-data machine-learning methods with Dr. Sunderland
+      link: ""
+
+- title: Honors & Awards
+  items:
+    - title: Harvard School of Engineering Dean’s Award
+      organization: Outstanding Engineering Projects
+      location: ""
+      start_date: ""
+      end_date: "2021"
+      description: ""
+      link: ""
+    - title: Sophia Freund Prize
+      organization: Highest rank in graduating class
+      location: ""
+      start_date: ""
+      end_date: "2021"
+      description: ""
+      link: ""
+    - title: Harvard Phi Beta Kappa Junior Inductee
+      organization: Top 2% of class
+      location: ""
+      start_date: ""
+      end_date: "2020"
+      description: ""
+      link: ""
+    - title: John Harvard Scholar
+      organization: Top 5% of class
+      location: ""
+      start_date: ""
+      end_date: 2018, 2019 & 2020
+      description: ""
+      link: ""
+    - title: Detur Book Prize Recipient
+      organization: Freshman-year academic performance
+      location: ""
+      start_date: ""
+      end_date: "2018"
+      description: ""
+      link: ""
+    - title: Central Valley High School Valedictorian
       organization: ""
       location: ""
-      start_date: "2024"
-      end_date: ""
-      description: Explain what you made, discovered, or contributed.
+      start_date: ""
+      end_date: "2017"
+      description: ""
       link: ""
-
+    - title: Spokane Science Scholar 1st Place Recipient
+      organization: ""
+      location: ""
+      start_date: ""
+      end_date: "2017"
+      description: ""
+      link: ""
