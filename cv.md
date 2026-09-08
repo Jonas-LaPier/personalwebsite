@@ -14,17 +14,13 @@ permalink: /cv/
 <section class="cv-section">
   <h2>{{ section.title }}</h2>
   <div>
-    {% for item in section.items %}
-    <article class="cv-item">
-      <div class="cv-date">{{ item.start_date }}{% if item.end_date != '' %} — {{ item.end_date }}{% endif %}</div>
-      <div>
-        <h3>{% if item.link != '' %}<a href="{{ item.link }}">{{ item.title }} ↗</a>{% else %}{{ item.title }}{% endif %}</h3>
-        {% if item.organization != '' %}<p class="meta">{{ item.organization }}{% if item.location != '' %} · {{ item.location }}{% endif %}</p>{% endif %}
-        {% if item.description != '' %}<p class="description">{{ item.description }}</p>{% endif %}
-        {% if item.details %}<ul class="cv-details">{% for detail in item.details %}<li>{{ detail }}</li>{% endfor %}</ul>{% endif %}
-      </div>
-    </article>
-    {% endfor %}
+    {% for item in section.items limit: 3 %}{% include cv-item.html item=item %}{% endfor %}
+    {% if section.items.size > 3 %}
+    <details class="cv-more">
+      <summary><span class="show-label">Show {{ section.items.size | minus: 3 }} more</span><span class="hide-label">Show less</span></summary>
+      {% for item in section.items offset: 3 %}{% include cv-item.html item=item %}{% endfor %}
+    </details>
+    {% endif %}
   </div>
 </section>
 {% endfor %}

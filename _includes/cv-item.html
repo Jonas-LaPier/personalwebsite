@@ -1,0 +1,10 @@
+<article class="cv-item">
+  <div class="cv-date">{{ include.item.start_date }}{% if include.item.end_date != '' %} — {{ include.item.end_date }}{% endif %}</div>
+  <div>
+    <h3>{% if include.item.link != '' %}<a href="{{ include.item.link }}">{{ include.item.title }} ↗</a>{% else %}{{ include.item.title }}{% endif %}</h3>
+    {% if include.item.organization != '' %}<p class="meta">{{ include.item.organization }}{% if include.item.location != '' %} · {{ include.item.location }}{% endif %}</p>{% endif %}
+    {% if include.item.description != '' %}<p class="description">{{ include.item.description }}</p>{% endif %}
+    {% if include.item.details %}<ul class="cv-details">{% for detail in include.item.details %}<li>{{ detail }}</li>{% endfor %}</ul>{% endif %}
+  </div>
+</article>
+
