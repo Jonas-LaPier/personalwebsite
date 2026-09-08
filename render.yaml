@@ -16,7 +16,7 @@ services:
       - key: ALLOWED_HOSTS
         value: .onrender.com
       - key: CSRF_TRUSTED_ORIGINS
-        sync: false
+        value: https://*.onrender.com
       - key: DB_PATH
         value: /var/data/db.sqlite3
       - key: MEDIA_ROOT
@@ -25,4 +25,3 @@ services:
       name: website-data
       mountPath: /var/data
       sizeGB: 1
-

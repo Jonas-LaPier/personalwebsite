@@ -27,10 +27,12 @@ This repository includes a Render Blueprint. It provisions a Django web service 
 
 1. Sign in to Render and choose **New → Blueprint**.
 2. Connect the GitHub repository and select `Jonas-LaPier/personalwebsite`.
-3. Render finds `render.yaml`. Before applying it, set `CSRF_TRUSTED_ORIGINS` to the eventual HTTPS URL, such as `https://personalwebsite.onrender.com`.
+3. Render finds `render.yaml`. Review the resources and click **Apply**.
 4. Apply the Blueprint and wait for the health check to turn green.
 5. In the service's **Shell**, run `python manage.py createsuperuser`.
 6. Visit `/admin/`, sign in, and replace the placeholder profile content.
+
+If you later add a custom domain, add its full HTTPS origin (for example, `https://www.example.com`) to `CSRF_TRUSTED_ORIGINS` and add the hostname to `ALLOWED_HOSTS` in the Render environment settings.
 
 The persistent disk requires a paid Render web-service plan. A free service has an ephemeral filesystem, so admin edits and uploaded files would be lost during restarts or redeployments.
 
