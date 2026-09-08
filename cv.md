@@ -17,7 +17,7 @@ permalink: /cv/
     {% for item in section.items limit: 3 %}{% include cv-item.html item=item %}{% endfor %}
     {% if section.items.size > 3 %}
     <details class="cv-more">
-      <summary><span class="show-label">Show {{ section.items.size | minus: 3 }} more</span><span class="hide-label">Show less</span></summary>
+      <summary>Show {{ section.items.size | minus: 3 }} more</summary>
       {% for item in section.items offset: 3 %}{% include cv-item.html item=item %}{% endfor %}
     </details>
     {% endif %}

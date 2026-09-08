@@ -8,7 +8,7 @@ location: Palo Alto, CA
 linkedin_url: ""
 github_url: https://github.com/Jonas-LaPier
 resume_url: /assets/files/LaPier_CV.pdf
-portrait: ""
+portrait: /assets/images/jonas-lapier.webp
 permalink: /blog/:year/:month/:day/:title/
 markdown: kramdown
 exclude:
