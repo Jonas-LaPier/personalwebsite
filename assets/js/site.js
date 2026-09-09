@@ -18,7 +18,7 @@ const moleculeArt = {
 function releaseMolecule() {
   if (!moleculeField || reducedMotion || moleculeField.childElementCount >= 3) return;
   const chance = Math.random();
-  const type = chance < .05 ? 'tetrabromo' : chance < .12 ? 'pfoa' : 'water';
+  const type = chance < .09 ? 'tetrabromo' : chance < .22 ? 'pfoa' : 'water';
   const molecule = document.createElement('span');
   molecule.className = `floating-molecule ${type}`;
   molecule.innerHTML = moleculeArt[type];
