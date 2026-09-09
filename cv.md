@@ -27,5 +27,5 @@ permalink: /cv/
 
 <figure class="life-banner cv-banner">
   <img src="{{ '/assets/images/life-journey-banner.png' | relative_url }}" alt="Illustrated panorama connecting Spokane, Harvard, Pacific Northwest National Laboratory, chemistry research, and Stanford">
-  <figcaption>AI's artistic representation of my CV</figcaption>
+  <figcaption>AI's artistic representation of my CV (only a little bit disturbing)</figcaption>
 </figure>
