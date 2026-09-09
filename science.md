@@ -5,7 +5,7 @@ nav: science
 permalink: /science/
 ---
 <header class="page-head">
-  <p class="eyebrow">Notes & ideas</p>
+  <p class="eyebrow">Stuff about</p>
   <h1>Science</h1>
   <p class="tagline">Research notes, scientific ideas, and longer explorations.</p>
 </header>
