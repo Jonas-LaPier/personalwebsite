@@ -1,0 +1,49 @@
+body.dark-extras {
+  --paper: #1c272e;
+  --ink: #eef4f1;
+  --muted: #aebfba;
+  --line: #405159;
+  --soft: #28363d;
+  --accent: #ef9272;
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(rgba(238, 244, 241, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(238, 244, 241, 0.035) 1px, transparent 1px);
+}
+
+.dark-extras .header nav.open {
+  background: var(--paper);
+}
+
+.dark-extras code {
+  background: #34434a;
+}
+
+.ufo-flyby {
+  position: fixed;
+  top: 15%;
+  left: -240px;
+  z-index: 8;
+  width: 180px;
+  pointer-events: none;
+  filter: drop-shadow(0 10px 12px rgba(0, 0, 0, 0.35));
+  animation: ufo-zoom 1.65s cubic-bezier(.2,.72,.35,1) .35s both;
+}
+
+.ufo-flyby svg { display: block; width: 100%; }
+.ufo-dome { fill: #8bd3c7; stroke: #d9fff8; stroke-width: 3; }
+.ufo-body { fill: #aebfba; stroke: #eef4f1; stroke-width: 3; }
+.ufo-rim { fill: #536970; }
+.ufo-flyby circle { fill: #ef9272; }
+.ufo-beam { fill: rgba(242, 224, 131, .16); }
+
+@keyframes ufo-zoom {
+  0% { transform: translateX(0) translateY(30px) rotate(-8deg) scale(.65); }
+  45% { transform: translateX(55vw) translateY(-18px) rotate(3deg) scale(1.1); }
+  100% { transform: translateX(calc(100vw + 480px)) translateY(38px) rotate(10deg) scale(.72); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ufo-flyby { display: none; }
+}
+

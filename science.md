@@ -1,17 +1,18 @@
 ---
 layout: default
-title: Writing
-nav: blog
-permalink: /blog/
+title: Science
+nav: science
+permalink: /science/
 ---
 <header class="page-head">
   <p class="eyebrow">Notes & ideas</p>
-  <h1>Writing</h1>
-  <p class="tagline">Occasional thoughts, field notes, and longer essays.</p>
+  <h1>Science</h1>
+  <p class="tagline">Research notes, scientific ideas, and longer explorations.</p>
 </header>
 
+{% assign science_posts = site.science | sort: 'date' | reverse %}
 <section class="post-grid">
-{% for post in site.posts %}
+{% for post in science_posts %}
   <article class="post-card">
     {% if post.cover_image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.cover_image | relative_url }}" alt="{{ post.cover_alt | default: '' }}"></a>{% endif %}
     <div>
@@ -22,7 +23,7 @@ permalink: /blog/
     </div>
   </article>
 {% else %}
-  <div class="empty"><h2>The first post is taking shape.</h2><p>Posts added to <code>_posts</code> will appear here.</p></div>
+  <div class="empty"><h2>The first post is taking shape.</h2><p>Posts added to <code>_science</code> will appear here.</p></div>
 {% endfor %}
 </section>
 

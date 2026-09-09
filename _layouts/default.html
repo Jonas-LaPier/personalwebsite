@@ -11,8 +11,9 @@
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/molecules.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/graph-paper.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/extras.css' | relative_url }}">
 </head>
-<body>
+<body{% if page.theme %} class="{{ page.theme }}"{% endif %}>
   {% include header.html %}
   <main class="shell">{{ content }}</main>
   {% include footer.html %}

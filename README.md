@@ -1,6 +1,6 @@
 # Personal website
 
-A lightweight Jekyll personal website built for GitHub Pages. It contains an About page, data-driven CV, and Markdown blog. No database, server, Python, Django, or paid hosting is required.
+A lightweight Jekyll personal website built for GitHub Pages. It contains an About page, data-driven CV, and separate Science and Extras Markdown collections. No database, server, Python, Django, or paid hosting is required.
 
 ## Publish it
 

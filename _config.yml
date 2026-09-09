@@ -9,7 +9,13 @@ linkedin_url: https://www.linkedin.com/in/jonas-lapier-a13080195/
 github_url: https://github.com/Jonas-LaPier
 resume_url: /assets/files/LaPier_CV.pdf
 portrait: /assets/images/jonas-lapier.webp
-permalink: /blog/:year/:month/:day/:title/
+collections:
+  science:
+    output: true
+    permalink: /science/:name/
+  extras:
+    output: true
+    permalink: /extras/:name/
 markdown: kramdown
 exclude:
   - README.md
