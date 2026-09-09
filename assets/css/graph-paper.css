@@ -3,7 +3,13 @@
   --soft: #edf3ef;
 }
 
+html {
+  min-height: 100%;
+  background-color: var(--paper);
+}
+
 body {
+  min-height: 100vh;
   background-color: var(--paper);
   background-image:
     linear-gradient(rgba(24, 50, 47, 0.045) 1px, transparent 1px),
@@ -13,3 +19,17 @@ body {
   background-attachment: fixed;
 }
 
+.eyebrow,
+.cv-more summary {
+  font-family: "Caveat", cursive;
+  font-size: 1.08rem;
+  font-weight: 600;
+  letter-spacing: 0.035em;
+  text-transform: none;
+}
+
+.life-banner figcaption {
+  font-family: "Caveat", cursive;
+  font-size: 0.95rem;
+  letter-spacing: 0.015em;
+}
