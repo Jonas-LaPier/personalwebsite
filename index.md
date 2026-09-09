@@ -28,10 +28,9 @@ nav: about
 </section>
 
 <section class="contact-card">
-  <div><p class="eyebrow">Let’s connect</p><h2>Have something in mind?</h2></div>
+  <div><p class="eyebrow">Let’s connect</p><h2>You can reach me here...</h2></div>
   <div class="links">
-    {% if site.email != '' %}<a href="mailto:{{ site.email }}">Email me ↗</a>{% endif %}
+    {% if site.email != '' %}<a href="mailto:{{ site.email }}">Email ↗</a>{% endif %}
     {% if site.linkedin_url != '' %}<a href="{{ site.linkedin_url }}">LinkedIn ↗</a>{% endif %}
-    {% if site.github_url != '' %}<a href="{{ site.github_url }}">GitHub ↗</a>{% endif %}
   </div>
 </section>
