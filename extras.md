@@ -18,7 +18,7 @@ permalink: /extras/
 <header class="page-head">
   <p class="eyebrow">Off the clock</p>
   <h1>Extras</h1>
-  <p class="tagline">Everything that doesn’t belong in the lab notebook.</p>
+  <p class="tagline">Everything else...</p>
 </header>
 
 {% assign extra_posts = site.extras | sort: 'date' | reverse %}
