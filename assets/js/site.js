@@ -23,14 +23,21 @@ function releaseMolecule() {
   molecule.className = `floating-molecule ${type}`;
   molecule.innerHTML = moleculeArt[type];
   molecule.style.setProperty('--lane', `${8 + Math.random() * 74}vh`);
-  molecule.style.setProperty('--duration', `${18 + Math.random() * 10}s`);
+  molecule.style.setProperty('--duration', `${38 + Math.random() * 18}s`);
   molecule.style.setProperty('--tilt', `${-18 + Math.random() * 36}deg`);
   molecule.style.setProperty('--direction', Math.random() > .5 ? 'normal' : 'reverse');
+  molecule.style.setProperty('--wander-duration', `${7 + Math.random() * 7}s`);
+  molecule.style.setProperty('--x-one', `${-18 + Math.random() * 36}px`);
+  molecule.style.setProperty('--y-one', `${-22 + Math.random() * 44}px`);
+  molecule.style.setProperty('--x-two', `${-24 + Math.random() * 48}px`);
+  molecule.style.setProperty('--y-two', `${-18 + Math.random() * 36}px`);
+  molecule.style.setProperty('--spin-one', `${-14 + Math.random() * 28}deg`);
+  molecule.style.setProperty('--spin-two', `${-20 + Math.random() * 40}deg`);
   moleculeField.appendChild(molecule);
   molecule.addEventListener('animationend', () => molecule.remove());
 }
 
 if (moleculeField && !reducedMotion) {
   window.setTimeout(releaseMolecule, 3500);
-  window.setInterval(releaseMolecule, 14000);
+  window.setInterval(releaseMolecule, 22000);
 }

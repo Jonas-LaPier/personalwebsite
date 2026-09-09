@@ -1,0 +1,21 @@
+.floating-molecule svg {
+  animation: molecule-wander var(--wander-duration) ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes molecule-wander {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0);
+  }
+  33% {
+    transform: translate(var(--x-one), var(--y-one)) rotate(var(--spin-one));
+  }
+  67% {
+    transform: translate(var(--x-two), var(--y-two)) rotate(var(--spin-two));
+  }
+}
+
+.cv-banner {
+  margin-top: 5rem;
+}
+

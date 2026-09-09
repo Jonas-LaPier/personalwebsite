@@ -24,3 +24,8 @@ permalink: /cv/
   </div>
 </section>
 {% endfor %}
+
+<figure class="life-banner cv-banner">
+  <img src="{{ '/assets/images/life-journey-banner.png' | relative_url }}" alt="Illustrated panorama connecting Spokane, Harvard, Pacific Northwest National Laboratory, chemistry research, and Stanford">
+  <figcaption>AI's artistic representation of my CV</figcaption>
+</figure>

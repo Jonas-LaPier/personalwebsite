@@ -27,11 +27,6 @@ nav: about
   </div>
 </section>
 
-<figure class="life-banner">
-  <img src="{{ '/assets/images/life-journey-banner.png' | relative_url }}" alt="Illustrated panorama connecting Spokane, Harvard, Pacific Northwest National Laboratory, chemistry research, and Stanford">
-  <figcaption>AI's artistic representation of my CV</figcaption>
-</figure>
-
 <section class="contact-card">
   <div><p class="eyebrow">Let’s connect</p><h2>Have something in mind?</h2></div>
   <div class="links">
