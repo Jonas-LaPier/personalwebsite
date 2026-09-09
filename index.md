@@ -6,7 +6,7 @@ nav: about
   <div>
     <p class="eyebrow">Hello, I’m</p>
     <h1>{{ site.title }}.</h1>
-    <p class="tagline">{{ site.tagline }}</p>
+    <p class="tagline">Environmental chemistry, molecular chemistry, and occasionally UFOs</p>
   </div>
   {% if site.portrait != '' %}
     <div class="portrait-wrap">
